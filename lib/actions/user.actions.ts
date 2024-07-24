@@ -37,6 +37,7 @@ export const getDocumentUser = async ({ roomId, currentUser, text}: {roomId: str
 
             return parseStringify(filteredUsers);
         }
+        return parseStringify(users);
     } catch (error) {
         console.log(`Error fetching document users:${error}`);
         
