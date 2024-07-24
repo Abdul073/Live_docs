@@ -41,3 +41,8 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
     </ClerkProvider>
   )
 }
+
+
+// git remote add origin https://github.com/Abdul073/Live_docs.git
+// git branch -M main
+// git push -u origin main
